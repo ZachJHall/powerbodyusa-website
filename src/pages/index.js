@@ -1,4 +1,5 @@
 import React from "react"
+import '../css/index.css'
 import Layout from '../components/layout'
 import BannerImage from '../images/powerbodyusa_meet_image.jpg'
 
@@ -6,10 +7,8 @@ const IndexPage = () => {
   return (
     <Layout>
 
-      <div class="banner-image">
-        <img src={ BannerImage } alt="Competition Team Photo" />
-      </div>
-
+      <img src={ BannerImage } alt="Competition Team Photo" id= "banner-image"/>
+    
       <div class="index-content">
 
         <h1>About PowerBody USA Fitness</h1>
@@ -21,7 +20,7 @@ const IndexPage = () => {
         Regardless of your fitness level, we can generate a plan that works for you...and age is never an excuse!</p>
 
       </div>
-      
+
     </Layout>
   )
 }
