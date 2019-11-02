@@ -12,6 +12,7 @@ const IndexPage = () => {
       <div class="index-content">
 
         <h1 id="index-header-title">About PowerBody USA Fitness</h1>
+
         <p>*POWERBODY USA is family-owned and operated by husband and wife team Strength Coach Chuck and Former National and World Champion Powerlifter, Carla Trosper.
         Since opening in 1996, we treat every member like they are a part of our family.
         Our primary goal is to share our 50 plus years of fitness knowledge with our community.
