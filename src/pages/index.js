@@ -11,7 +11,8 @@ const IndexPage = () => {
       Our primary goal is to share our 50 plus years of fitness knowledge with our community.
       Other companies may offer similar services, but our services come with a personal touch with affordable
        training sessions and reasonable yearly and short term memberships.
-      Regardless of your fitness level, we can generate a plan that works for you...and age is never an excuse!</p>
+      Regardless of your fitness level, we can generate a plan that works for you...and age is never an excuse!
+      </p>
     </Layout>
   )
 }
