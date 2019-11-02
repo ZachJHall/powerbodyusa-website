@@ -7,7 +7,7 @@ const IndexPage = () => {
   return (
     <Layout>
 
-      <img src={ BannerImage } alt="Competition Team Photo" id= "banner-image"/>
+      <img src={ BannerImage } alt="Competition Team" id= "banner-image"/>
 
       <div class="index-content">
 
