@@ -4,7 +4,7 @@ import '../css/base.css'
 
 const Layout = (props) => {
   return (
-    <div>
+    <div class = "container">
 
       {props.children}
 
