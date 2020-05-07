@@ -1,4 +1,4 @@
-#banner-image {
-  width: 100%;
-
+.topBanner {
+  height: 100vh;
+  background-color: green;
 }
