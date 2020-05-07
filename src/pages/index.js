@@ -1,13 +1,12 @@
 import React from "react"
 import '../css/index.css'
 import Layout from '../components/layout'
-import BannerImage from '../images/powerbodyusa_meet_image.jpg'
+
 
 const IndexPage = () => {
   return (
     <Layout>
 
-      <img src={ BannerImage } alt="Competition Team" id= "banner-image"/>
 
       <div class="index-content">
 
