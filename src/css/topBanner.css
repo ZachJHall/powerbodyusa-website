@@ -2,7 +2,7 @@
   height: 50vh;
   width: 100vw;
   background-color: green;
-  position: absolute;
+  position: relative;
 }
 
 .topBanner>img {
