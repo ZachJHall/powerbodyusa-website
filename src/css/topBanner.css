@@ -44,6 +44,23 @@
   justify-content: center;
 }
 
+.topBannerQuoteContentBottom>a>button {
+  background: transparent;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid #fff;
+  padding: 10px;
+  transition: .5s;
+  text-decoration: none;
+
+
+}
+.topBannerQuoteContentBottom>a>button:hover{
+  background-color:  #111111 ;
+  color: #FF4136;
+
+
+}
 
 @media only screen and (max-width: 472px ) {
   .topBannerQuoteContentTop {

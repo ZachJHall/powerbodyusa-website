@@ -19,7 +19,7 @@ const TopBanner = () => {
               </div>
 
               <div class="topBannerQuoteContentBottom">
-                <a href="tel:+16362818120"><button>Contact Us</button></a>
+                <a href="tel:+16362818120"><button>Call Us Now</button></a>
               </div>
 
             </div>
