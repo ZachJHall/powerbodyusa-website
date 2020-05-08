@@ -1,4 +1,36 @@
 .footer-div {
   height: 10vh;
-  background-color: black;
+  background-color: silver;
+  display:flex;
 }
+
+.footer-left{
+  width: 33%;
+  border: solid 3px red;
+}
+
+.footer-left>h3 {
+  justify-content: center;
+  display: flex;
+  margin: 2px;
+}
+
+.footer-icons {
+  display:flex;
+  justify-content: center;
+}
+
+.footer-icons>img {
+  width: 40px;
+}
+
+.footer-center{
+  border: solid 3px blue;
+  width: 34%;
+}
+
+.footer-right{
+  border: solid 3px green;
+  width: 33%;
+}
+
