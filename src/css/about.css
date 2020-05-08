@@ -1,0 +1,16 @@
+.aboutDiv {
+  height: 10vh;
+  display: flex;
+}
+
+.aboutDivWho {
+  height: 100%;
+  width: 50%;
+  background-color: green;
+}
+
+.aboutDivGoal {
+  height: 100%;
+  width: 50%;
+  background-color: blue;
+}

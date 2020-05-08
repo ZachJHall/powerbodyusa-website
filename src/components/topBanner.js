@@ -27,10 +27,6 @@ const TopBanner = () => {
 
       </div>
 
-
-
-
-
   )
 }
 
