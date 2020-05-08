@@ -1,18 +1,21 @@
 .footer-div {
-  height: 10vh;
+  height: auto;
   background-color: silver;
   display:flex;
 }
 
 .footer-left{
   width: 33%;
-  border: solid 3px red;
+  /* border: solid 3px red; */
 }
 
 .footer-left>h3 {
   justify-content: center;
   display: flex;
-  margin: 2px;
+  margin-top: 2px;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+
 }
 
 .footer-icons {
@@ -22,15 +25,57 @@
 
 .footer-icons>img {
   width: 40px;
+  margin-top: 0px;
 }
 
 .footer-center{
-  border: solid 3px blue;
+  /* border: solid 3px blue; */
   width: 34%;
+
+}
+
+.footer-center>h3:nth-child(1) {
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid black;
+  margin-bottom: 11px;
+}
+
+.footer-center>.footer-phoneIcon>h3 {
+  margin-top: 6px;
+}
+
+.footer-phoneIcon {
+  display:flex;
+  justify-content: center;
+
+}
+
+.footer-center>.footer-phoneIcon>img {
+  height: 32px;
+  width:32px;
+  margin-right:1%;
+  margin-top: 0px;
 }
 
 .footer-right{
-  border: solid 3px green;
+  /* border: solid 3px green; */
   width: 33%;
+  /* justify-content: center;
+  display:flex;
+  flex-direction: column; */
+}
+
+.footer-right>h3:nth-child(1) {
+  border-bottom: 2px solid black;
+  margin-top: 2px;
+  justify-content: center;
+  display:flex;
+}
+
+.footer-right>h3:nth-child(2) {
+  justify-content: center;
+  display:flex;
 }
 
