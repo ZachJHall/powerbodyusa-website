@@ -1,8 +1,11 @@
 import React from "react"
 import '../css/footer.css'
-import FbIcon from '../images/fbIcon.svg'
-import InstaIcon from '../images/instaIcon.svg'
-import PhoneIcon from '../images/phoneIcon.svg'
+import { Link } from 'gatsby'
+
+import InstaIcon from '../images/iconInsta.svg'
+import PhoneIcon from '../images/iconPhone.svg'
+import FbIcon from '../images/iconFb.svg'
+import MapIcon from '../images/iconMapPin.svg'
 
 
 const Footer = () => {
@@ -10,27 +13,17 @@ const Footer = () => {
 
       <div class="footer-div">
 
-          <div className="footer-left">
-              <h3>Connect With Us!</h3>
-              <div className="footer-icons">
-                <img src={FbIcon} />
-                <img src={InstaIcon} />
-              </div>
+          <div className="footerTextDiv">
+            <h1>Real Gym. Real Results.</h1>
           </div>
 
-          <div className="footer-center">
-            <h3>Call Us Today!</h3>
-            <div className="footer-phoneIcon">
-              <img src={PhoneIcon} />
-              <h3>636-281-8120</h3>
-            </div>
+          <div className="footerIconDiv">
+            <a href='https://www.facebook.com/strengthmattersGiTsum/'><img src={FbIcon} /></a>
+            <a href='https://www.instagram.com/powerbodyusaofficial/?hl=en'><img src={InstaIcon} /></a>
+            <a href="tel:+16362818120"><img src={PhoneIcon} /></a>
+            <a href="http://maps.google.com/?q=1200 403 Sonderen St, O'Fallon, MO 63366"><img src={MapIcon} /></a>
           </div>
-
-          <div className="footer-right">
-            <h3>Address:</h3>
-            <h3>403 Sonderen St, O'Fallon, MO 63366</h3>
-          </div>
-
+          
       </div>
 
   )
