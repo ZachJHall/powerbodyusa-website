@@ -8,7 +8,18 @@ function InfoCard (props) {
 );
   return (
     <div class="infoCardDiv">
-      <ul>{listItems}</ul>
+
+      <div class="infoCardDivBody">
+
+        <div class="infoCardDivBodyTop">
+          <p>{props.title}</p>
+        </div>
+
+        <div class="infoCardDivBodyBottom">
+        <ul>{listItems}</ul>
+        </div>
+
+      </div>
     </div>
 
   );

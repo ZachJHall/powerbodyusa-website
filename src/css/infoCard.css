@@ -1,7 +1,42 @@
-.infoCardDiv {
+.infoCardDivBody {
   height: auto;
-  width: 33%;
+
   background-color: #FFFFFF;
   margin-bottom: 20px;
   min-height: 120px;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
 }
+
+.infoCardDivBodyTop {
+  height: 30%;
+
+}
+
+.infoCardDivBodyBottom {
+  height: 70%;
+
+
+}
+
+.infoCardDivBodyBottom>ul {
+  height: 70%;
+
+  margin-right: 25px;
+}
+
+.infoCardDivBodyTop>p{
+  color: #EF273C;
+  font-size: 1.2em;
+
+}
+
+.infoCard>ul{
+  padding-right: 2px;
+}
+
+/* Red = #EF273C */

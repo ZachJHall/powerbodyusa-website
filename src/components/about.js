@@ -13,7 +13,10 @@ const About = () => {
         <h1>Why PowerBody USA Fitness?</h1>
 
         <div class="aboutCardContainer">
-          <InfoCard items = {["Chuck",2,3]} />
+          <InfoCard title = "Something" items = {["Something","Something","Something"]} />
+          <InfoCard title = "Something" items = {["Something","Something","Something"]} />
+          <InfoCard title = "Something" items = {["Something","Something","Something"]} />
+          
         </div>
 
 
