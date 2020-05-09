@@ -1,16 +1,19 @@
 .aboutDiv {
   height: 10vh;
+  background-color: #131313;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.aboutDivWho {
-  height: 100%;
-  width: 50%;
-  background-color: green;
+.aboutDiv>h1 {
+  color: white;
+  margin: 0;
+
 }
 
-.aboutDivGoal {
-  height: 100%;
-  width: 50%;
-  background-color: blue;
+.aboutCardContainer {
+  height: 50%;
+  width: 60%;
+  background-color: white;
 }

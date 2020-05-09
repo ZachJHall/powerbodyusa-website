@@ -13,7 +13,6 @@ const IndexPage = () => {
       <About />
       <Footer />
 
-
     </Layout>
   )
 }

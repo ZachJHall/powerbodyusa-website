@@ -8,13 +8,12 @@ const About = () => {
 
       <div class="aboutDiv">
 
-        <div class="aboutDivWho">
+        <h1>Why PowerBody USA Fitness?</h1>
 
+        <div class = "aboutCardContainer">
+          
         </div>
 
-        <div class="aboutDivGoal">
-        
-        </div>
 
       </div>
 
