@@ -9,16 +9,23 @@
 .aboutDiv>h1 {
   color: white;
   margin: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
 }
 
 .aboutCardContainer {
   height: 50%;
   width: 60%;
-  background-color: green;
+
 
   display: flex;
 
   justify-content: space-around;
+}
 
+@media only screen and (max-width: 707px) {
+  .aboutCardContainer {
+    flex-direction: column;
+  }
 }
