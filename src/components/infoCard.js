@@ -1,15 +1,17 @@
 import React from 'react';
-import Header from './header'
-import '../css/css'
 
-const InfoCard = (props) => {
+import '../css/infoCard.css'
+
+function InfoCard (props) {
+  const listItems = props.items.map((item) =>
+  <li>{item}</li>
+);
   return (
-    <div class = "infoCardDiv">
-
-
-
+    <div class="infoCardDiv">
+      <ul>{listItems}</ul>
     </div>
-  )
+
+  );
 }
 
 export default InfoCard
