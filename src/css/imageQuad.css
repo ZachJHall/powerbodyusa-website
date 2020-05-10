@@ -1,0 +1,23 @@
+.imageQuadDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.imageQuadWhole {
+    height:auto;
+    width: 70%;
+    background-color: teal;
+}
+
+.imageQuadUpper {
+    display:flex;
+    justify-content: center;
+    margin: 2px;
+}
+
+
+.imageQuadLower {
+    display:flex;
+    justify-content: center;
+    margin: 2px;
+}
