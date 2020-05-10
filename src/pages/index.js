@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 
 import TopBanner from '../components/topBanner'
 import About from '../components/about'
+import Contact from '../components/contact'
 import Footer from '../components/footer'
 
 const IndexPage = () => {
@@ -11,7 +12,7 @@ const IndexPage = () => {
     <Layout>
       <TopBanner />
       <About />
-
+      <Contact />
       <Footer />
 
     </Layout>
