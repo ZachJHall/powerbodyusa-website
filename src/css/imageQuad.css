@@ -1,23 +1,31 @@
 .imageQuadDiv {
     display: flex;
     justify-content: center;
+
+    background-color: #131313;
 }
 
 .imageQuadWhole {
     height:auto;
     width: 70%;
     background-color: teal;
+
+    margin-top: 20px;
+
+    margin-bottom: 40px;
 }
 
 .imageQuadUpper {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 2px;
+
+    margin-bottom: 20px;
 }
 
 
 .imageQuadLower {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 2px;
 }
