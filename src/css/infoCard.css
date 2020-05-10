@@ -23,20 +23,40 @@
 
 }
 
+.infoCardDivBodyTop>p{
+
+  font-size: 1.2em;
+
+  font-size: x-large;
+
+  font-weight: 700
+
+
+}
+
 .infoCardDivBodyBottom>ul {
   height: 70%;
 
   margin-right: 25px;
+
+  
+
+  font-size: x-large;
+
+
+
 }
 
-.infoCardDivBodyTop>p{
-  color: #EF273C;
-  font-size: 1.2em;
 
-}
 
 .infoCard>ul{
   padding-right: 2px;
 }
+
+.infoCardDivBodyBottom>ul>li{
+  line-height: 1.6em;
+}
+
+
 
 /* Red = #EF273C */
