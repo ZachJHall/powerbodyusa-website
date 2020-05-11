@@ -29,7 +29,7 @@
 @media only screen and (max-width: 1144px) {
   .aboutCardContainer {
     flex-direction: column;
-    
+
     align-items: center;
   }
 }

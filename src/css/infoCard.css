@@ -1,5 +1,6 @@
 .infoCardDiv {
   width: 30%;
+
 }
 
 .infoCardDiv>img {
@@ -59,10 +60,6 @@
   width: 100%;
 
 
-
-
-
-
 }
 
 .infoCardListContent>ul {
@@ -98,6 +95,11 @@
 @media only screen and (max-width: 1144px) {
   .infoCardDiv {
     width: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+  }
+
+  .infoCardDiv>img {
+    height: auto;
+
   }
 }
