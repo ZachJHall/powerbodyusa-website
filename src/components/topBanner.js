@@ -5,6 +5,7 @@ import Header from './header'
 
 import TopBannerImage from '../images/pbPic.jpg'
 
+import BannerImage from "../components/bannerImage"
 
 
 const TopBanner = () => {
@@ -12,8 +13,8 @@ const TopBanner = () => {
 
       <div class="topBanner">
           <Header />
-          <img src={TopBannerImage} />
 
+          <BannerImage />
 
           <div class="topBannerQuote">
             <div class="topBannerQuoteContent">

@@ -1,5 +1,5 @@
 import React from "react"
-
+import "../css/bannerImage.css"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql} from "gatsby"
 
@@ -20,7 +20,7 @@ const BannerImage = () => {
     }
   `)
   return (
-    <div>
+    <div class="bannerImage">
       <Img fluid = {data.file.childImageSharp.fluid} />
     </div>
   )

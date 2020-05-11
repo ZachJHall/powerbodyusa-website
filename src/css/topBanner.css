@@ -1,18 +1,14 @@
 .topBanner {
   height: 100vh;
-/* 
+/*
   background-color: green; */
   position: relative;
 
 }
 
-.topBanner>img {
+.bannerImage img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  position: relative;
-  margin: 0;
-  filter: grayscale(1);
 }
 
 .topBannerQuote{
