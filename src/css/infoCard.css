@@ -8,7 +8,7 @@
   width: 100%;
   display: block;
 
-  filter: grayscale(.8);
+  filter: grayscale(.5);
 }
 
 .infoCardDivBody {
