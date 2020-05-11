@@ -13,10 +13,10 @@ const About = () => {
         <h1>Why PowerBody USA Fitness?</h1>
 
         <div class="aboutCardContainer">
-          <InfoCard title = "Something" items = {["Something","Something","Something"]} />
-          <InfoCard title = "Something" items = {["Something","Something","Something"]} />
-          <InfoCard title = "Something" items = {["Something","Something","Something"]} />
-          
+          <InfoCard title = "Variety" items = {["Weight Equipment","Steam Room","Suana", "Mini Track"]} />
+          <InfoCard title = "Flexible Options" items = {["Personal Training","Group Classes","Nutrition Assistance", "Flexible Payment Plans"]} />
+          <InfoCard title = "Community" items = {["High Level Athletes","Friendly Supportive Environment","Competition Hosting"]} />
+
         </div>
 
 
