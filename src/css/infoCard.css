@@ -104,3 +104,16 @@
 
   }
 }
+
+
+
+@media only screen and (max-width: 550) {
+  .infoCardDiv {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .infoCardDiv>img {
+    height: auto;
+  }
+}
