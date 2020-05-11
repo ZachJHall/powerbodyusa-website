@@ -1,5 +1,9 @@
+.infoCardDiv {
+  width: 30%;
+}
+
 .infoCardDivBody {
-  height: auto;
+  height: 100%;
 
   background-color: #FFFFFF;
   margin-bottom: 20px;
@@ -8,18 +12,25 @@
   display: flex;
   flex-direction: column;
 
-  text-align: center;
+
 
 }
 
 .infoCardDivBodyTop {
-  height: 30%;
+  height: 20%;
+
+  display: flex;
+  justify-content: center;
 
 }
 
 .infoCardDivBodyBottom {
   height: 70%;
 
+
+
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -34,14 +45,27 @@
 
 }
 
-.infoCardDivBodyBottom>ul {
+.infoCardListContent {
+  height: auto;
+
+  width: 100%;
+
+
+
+
+
+
+}
+
+.infoCardListContent>ul {
   height: 70%;
 
   margin-right: 25px;
 
-  
+
 
   font-size: x-large;
+
 
 
 
@@ -53,10 +77,19 @@
   padding-right: 2px;
 }
 
-.infoCardDivBodyBottom>ul>li{
+.infoCardListContent>ul>li{
   line-height: 1.6em;
+
+
 }
 
 
 
 /* Red = #EF273C */
+
+@media only screen and (max-width: 707px) {
+  .infoCardDiv {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

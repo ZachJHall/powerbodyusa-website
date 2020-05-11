@@ -16,7 +16,11 @@ function InfoCard (props) {
         </div>
 
         <div class="infoCardDivBodyBottom">
-        <ul>{listItems}</ul>
+
+          <div class="infoCardListContent">
+            <ul>{listItems}</ul>
+          </div>
+
         </div>
 
       </div>
