@@ -2,8 +2,15 @@
   width: 30%;
 }
 
+.infoCardDiv>img {
+  height: auto;
+  width: 100%;
+  display: block;
+
+}
+
 .infoCardDivBody {
-  height: 100%;
+  /* height: 100%; */
 
   background-color: #FFFFFF;
   margin-bottom: 20px;
