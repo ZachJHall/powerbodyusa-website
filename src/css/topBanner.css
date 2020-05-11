@@ -12,6 +12,7 @@
   object-fit: cover;
   position: relative;
   margin: 0;
+  filter: grayscale(1);
 }
 
 .topBannerQuote{
