@@ -26,7 +26,7 @@
   margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 707px) {
+@media only screen and (max-width: 1144px) {
   .aboutCardContainer {
     flex-direction: column;
   }

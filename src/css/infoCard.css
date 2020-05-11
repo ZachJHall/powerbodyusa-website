@@ -21,6 +21,7 @@
 
 
 
+
 }
 
 .infoCardDivBodyTop {
@@ -94,7 +95,7 @@
 
 /* Red = #EF273C */
 
-@media only screen and (max-width: 707px) {
+@media only screen and (max-width: 1144px) {
   .infoCardDiv {
     width: 100%;
     margin-bottom: 20px;
