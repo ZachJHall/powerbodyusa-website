@@ -1,5 +1,6 @@
 import React from "react"
 import '../css/topBanner.css'
+import Header from './header'
 
 
 import TopBannerImage from '../images/pbPic.jpg'
@@ -8,6 +9,7 @@ const TopBanner = () => {
   return (
 
       <div class="topBanner">
+          <Header />
           <img src={TopBannerImage} />
 
 
