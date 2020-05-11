@@ -13,9 +13,9 @@ const About = () => {
   return (
 
       <div class="aboutDiv">
-
-        <h1>Why PowerBody USA Fitness?</h1>
-
+        <div class="aboutDivHeader">
+        <h1>Why PowerBody USA</h1> <h1> Fitness?</h1>
+        </div>
         <div class="aboutCardContainer">
           <InfoCard  src = {varietyPic} title = "Variety" items = {["Weight Equipment","Steam Room","Suana", "Mini Track"]} />
           <InfoCard  src = {flexiblePic}title = "Flexible Options" items = {["24/7 Access", "Personal Training","Group Classes","Nutrition Assistance", "Flexible Payment Plans"]} />
