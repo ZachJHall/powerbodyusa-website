@@ -1,5 +1,4 @@
 import React from 'react';
-
 import '../css/infoCard.css'
 
 function InfoCard (props) {

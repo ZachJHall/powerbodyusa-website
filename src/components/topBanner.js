@@ -1,16 +1,12 @@
 import React from "react"
 import '../css/topBanner.css'
 import Header from './header'
-
-
-import TopBannerImage from '../images/pbPic.jpg'
-
 import BannerImage from "../components/bannerImage"
 
 
 const TopBanner = () => {
   return (
-
+   
       <div class="topBanner">
           <Header />
 
@@ -32,7 +28,7 @@ const TopBanner = () => {
           </div>
 
       </div>
-
+   
   )
 }
 

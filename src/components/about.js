@@ -1,7 +1,5 @@
 import React from "react"
 import '../css/about.css'
-
-
 import InfoCard from './infoCard.js'
 
 import varietyPic from '../images/variety.jpg'
