@@ -8,6 +8,7 @@ import FbIcon from '../images/iconFb.svg'
 import MapIcon from '../images/iconMapPin.svg'
 
 
+
 const Footer = () => {
   return (
 
