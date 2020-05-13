@@ -3,7 +3,7 @@ import '../css/topBanner.css'
 import Header from './header'
 
 
-import TopBannerImage from '../images/pbPic.jpg'
+import TopBannerImage from '../images/pbPic.webp'
 
 const TopBanner = () => {
   return (
