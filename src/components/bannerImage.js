@@ -21,7 +21,7 @@ const BannerImage = () => {
   `)
   return (
     <div class="bannerImage">
-      <Img fluid = {data.file.childImageSharp.fluid} />
+      <Img fluid = {data.file.childImageSharp.fluid} alt='barbell with weight at Powerbody USA'/>
     </div>
   )
 }

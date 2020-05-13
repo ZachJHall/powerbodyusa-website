@@ -8,7 +8,7 @@ function InfoCard (props) {
 );
   return (
     <div class="infoCardDiv">
-        <img src={props.src} />
+        <img src={props.src} alt={props.alt}/>
       <div class="infoCardDivBody">
 
         <div class="infoCardDivBodyTop">

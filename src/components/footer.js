@@ -18,10 +18,10 @@ const Footer = () => {
           </div>
 
           <div className="footerIconDiv">
-            <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/strengthmattersGiTsum/'><img src={FbIcon} /></a>
-            <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/powerbodyusaofficial/?hl=en'><img src={InstaIcon} /></a>
-            <a target="_blank" rel="noopener noreferrer" href="tel:+16362818120"><img src={PhoneIcon} /></a>
-            <a target="_blank" rel="noopener noreferrer" href='https://maps.google.com/?q=1200 403 Sonderen St, OFallon, MO 63366'><a target="_blank" rel="noopener noreferrer" href='https://maps.apple.com/maps?q=1200 403 Sonderen St, OFallon, MO 63366'><img src={MapIcon} /></a></a>
+            <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/strengthmattersGiTsum/'><img src={FbIcon} alt='Facebook icon to Powerbody USA facebook account'/></a>
+            <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/powerbodyusaofficial/?hl=en'><img src={InstaIcon} alt='Instagram icon to Powerbody USA Instagram account'/></a>
+            <a target="_blank" rel="noopener noreferrer" href="tel:+16362818120"><img src={PhoneIcon} alt='Phone icon to call Powerbody USA'/></a>
+            <a target="_blank" rel="noopener noreferrer" href='https://maps.google.com/?q=1200 403 Sonderen St, OFallon, MO 63366'><a target="_blank" rel="noopener noreferrer" href='https://maps.apple.com/maps?q=1200 403 Sonderen St, OFallon, MO 63366'><img src={MapIcon} alt='map icon for directions to Powerbody USA'/></a></a>
           </div>
 
 
