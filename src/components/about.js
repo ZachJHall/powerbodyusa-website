@@ -4,9 +4,9 @@ import '../css/about.css'
 
 import InfoCard from './infoCard.js'
 
-import varietyPic from '../images/variety.webp'
-import flexiblePic from '../images/flexibleOptions.webp'
-import communityPic from '../images/community.webp'
+import varietyPic from '../images/variety.jpg'
+import flexiblePic from '../images/flexibleOptions.jpg'
+import communityPic from '../images/community.jpg'
 
 
 const About = () => {

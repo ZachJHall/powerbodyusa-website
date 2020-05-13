@@ -6,7 +6,7 @@ import { useStaticQuery, graphql} from "gatsby"
 const BannerImage = () => {
   const data = useStaticQuery(graphql`
     query MyQuery {
-      file(relativePath: {eq: "pbPic.webp"}) {
+      file(relativePath: {eq: "pbPic.jpg"}) {
         childImageSharp {
           fluid {
             aspectRatio
