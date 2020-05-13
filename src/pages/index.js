@@ -8,14 +8,12 @@ import Footer from '../components/footer'
 
 const IndexPage = () => {
   return (
-    <html lang='en'>
       <Layout>
         <TopBanner />
         <About />
         <Footer />
 
       </Layout>
-    </html> 
   )
 }
 
