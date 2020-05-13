@@ -1,18 +1,14 @@
 .topBanner {
   height: 100vh;
-/* 
+/*
   background-color: green; */
   position: relative;
 
 }
 
-.topBanner>img {
+.bannerImage img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  position: relative;
-  margin: 0;
-  filter: grayscale(1);
 }
 
 .topBannerQuote{
@@ -51,7 +47,7 @@
 }
 
 .topBannerQuoteContentBottom>a>button {
-  background: transparent;
+  background-color: #087abb;
   color: white;
   border-radius: 12px;
   border: 2px solid #fff;
@@ -61,7 +57,7 @@
 }
 
 .topBannerQuoteContentBottom>a>a>button {
-  background: transparent;
+  background-color: #087abb;
   color: white;
   border-radius: 12px;
   border: 2px solid #fff;
@@ -70,15 +66,7 @@
   text-decoration: none;
 }
 
-.topBannerQuoteContentBottom>a>button:hover{
-  background-color:  #131313;
-  color: #EF273C;
-}
 
-.topBannerQuoteContentBottom>a>a>button:hover{
-  background-color:  #131313;
-  color: #EF273C;
-}
 
 @media only screen and (max-width: 472px ) {
   .topBannerQuoteContentTop {

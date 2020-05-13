@@ -5,13 +5,16 @@ import Header from './header'
 
 import TopBannerImage from '../images/pbPic.webp'
 
+import BannerImage from "../components/bannerImage"
+
+
 const TopBanner = () => {
   return (
 
       <div class="topBanner">
           <Header />
-          <img src={TopBannerImage} />
 
+          <BannerImage />
 
           <div class="topBannerQuote">
             <div class="topBannerQuoteContent">
