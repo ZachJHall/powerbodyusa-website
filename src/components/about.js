@@ -12,7 +12,7 @@ const About = () => {
 
       <div class="aboutDiv">
         <div class="aboutDivHeader">
-        <h1>Why PowerBody USA</h1> <h1> Fitness?</h1>
+        <h1>Why USA</h1> <h1> Fitness?</h1>
         </div>
         <div class="aboutCardContainer">
           <InfoCard  src = {varietyPic} alt = 'Trainer training young client to curl at Powerbody USA' title = "Variety" items = {["Free Weights", "Cable Machines", "Steam Room","Sauna", "Mini Track"]} />
